@@ -1,0 +1,12 @@
+Source: ros-indigo-rwt-moveit
+Section: misc
+Priority: extra
+Maintainer: Isaac I.Y. Saito <iiysaito@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-interactive-marker-proxy, ros-indigo-kdl-parser, ros-indigo-message-generation, ros-indigo-moveit-msgs, ros-indigo-orocos-kdl, ros-indigo-robot-state-publisher, ros-indigo-rosbridge-server, ros-indigo-rospy, ros-indigo-roswww, ros-indigo-rwt-utils-3rdparty, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf2-web-republisher, ros-indigo-visualization-msgs
+Homepage: http://wiki.ros.org/rwt_moveit
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rwt-moveit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-interactive-marker-proxy, ros-indigo-kdl-parser, ros-indigo-message-runtime, ros-indigo-moveit-msgs, ros-indigo-orocos-kdl, ros-indigo-robot-state-publisher, ros-indigo-rosbridge-server, ros-indigo-rospy, ros-indigo-roswww, ros-indigo-rwt-utils-3rdparty, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf2-web-republisher, ros-indigo-visualization-msgs
+Description: This package provides a web user interface of MoveIt! on top of visualizer in ros3djs.
