@@ -1,0 +1,22 @@
+ros-indigo-rwt-utils-3rdparty (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+ros-indigo-rwt-utils-3rdparty (0.0.2-0trusty) trusty; urgency=high
+
+  * remove old rosbuild files
+  * Add maintainer. Consistent pkg versions. Sort out manifest format.
+  * catkinize visualization_rwt packages
+  * adding bootstrap without responsive
+  * adding async.js
+  * adding jquery
+  * adding less.js
+  * adding bootstrap
+  * renaming js_utils -> rwt_utils_3rdparty
+  * Contributors: Yuki Furuta, Isaac IY Saito, Kei Okada, Ryohei Ueda
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+
