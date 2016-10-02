@@ -1,22 +1,30 @@
-rwt_speech_recognition
+visualization_rwt [![Build Status](https://api.travis-ci.org/tork-a/visualization_rwt.png)](https://travis-ci.org/tork-a/visualization_rwt)
 =================
 
-## Get Started
+visualization packages based on RobotWebTools
 
-### Open shell and type these commands.
+INSTALL
+-------
+
+Following is an example with ROS Indigo.
+
+1. Create a [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace) and navigate to its source directory (e.g. `~/catkin_ws/src`).
+
+2. In your Catkin workspace, download source and build with the following commands.
 
 ```
-roslaunch rwt_speech_recognition rwt_speech_recognition.launch
+cd ~/catkin_ws
+apt-get install python-wstool
+wstool init src
+wstool merge -t src https://raw.githubusercontent.com/tork-a/visualization_rwt/hydro-devel/.rosinstall
+wstool update -t src
+rosdep install --from-paths src --ignore-src --rosdistro indigo -r -y
+catkin_make                (or any build commands available in ROS, e.g. `catkin build`)
+source devel/setup.bash
 ```
 
-### Browse and enjoy it!
+PROJECTS
+--------
 
-Open your browser, and access to:
-
-`http://<your host name>:8000/rwt_speech_recognition/`
-
-And now you can use speech-to-text service with ROS!
-
-__Note: speech recognition service is now available only with chrome for PC or Android.__
-
-- Ubuntu Users: see http://askubuntu.com/questions/510056/how-to-install-google-chrome to how to install Google Chrome
+* [rwt_plot](rwt_plot/README.md)
+* [rwt_speech_recognition](rwt_speech_recognition/README.md)
