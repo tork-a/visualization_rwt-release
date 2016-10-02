@@ -1,0 +1,12 @@
+Source: ros-indigo-rwt-image-view
+Section: misc
+Priority: extra
+Maintainer: Ryohei Ueda <garaemon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-mjpeg-server, ros-indigo-rospy, ros-indigo-roswww, ros-indigo-rwt-utils-3rdparty, ros-indigo-std-srvs
+Homepage: http://wiki.ros.org/rwt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rwt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-mjpeg-server, ros-indigo-rospy, ros-indigo-roswww, ros-indigo-rwt-utils-3rdparty, ros-indigo-std-srvs
+Description: The rwt_image_view package
