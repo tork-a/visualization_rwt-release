@@ -1,0 +1,92 @@
+ros-noetic-rwt-plot (0.1.1-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-plot (0.1.0-2buster) buster; urgency=high
+
+  * use websocket_port 9090 as defaut (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * add test for rwt tools (#110 <https://github.com/tork-a/visualization_rwt/issues/110>)
+  * Contributors: Kei Okada, Shingo Kitagawa
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-plot (0.0.5-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Thu, 11 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-plot (0.0.4-2buster) buster; urgency=high
+
+  * Add settings for ROS connection (#76 <https://github.com/tork-a/visualization_rwt//issues/76>)
+  * Modified rwt's javascript module path. (#70 <https://github.com/tork-a/visualization_rwt//issues/70>)
+  * Contributors: Furuta Yuki, Kei Okada, Iory Yanokura
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Mon, 08 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-plot (0.0.3-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Fri, 30 Sep 2016 15:00:00 -0000
+
+ros-noetic-rwt-plot (0.0.2-2buster) buster; urgency=high
+
+  * remove old rosbuild files
+  * reomve depends to the packages released from CDN
+  * Add maintainer. Consistent pkg versions. Sort out manifest format.
+  * use tork-a/roswww
+  * don't make functions within a loop
+  * catkinize visualization_rwt packages
+  * changes the color according to the level of the statuses #15 <https://github.com/tork-a/visualization_rwt/issues/15>
+  * fixing conflict
+  * supporting ticks #15 <https://github.com/tork-a/visualization_rwt/issues/15>:
+    
+      * #15 <https://github.com/tork-a/visualization_rwt/issues/15>: plotting data
+      * #17 <https://github.com/tork-a/visualization_rwt/issues/17>: using color category of d3
+      * #16 <https://github.com/tork-a/visualization_rwt/issues/16>: formatting second from epic time
+      * #16 <https://github.com/tork-a/visualization_rwt/issues/16>: implementing x-scale moving
+      * #16 <https://github.com/tork-a/visualization_rwt/issues/16>: fixing the increment bug
+      * fixing xaxis scalling when the data is not enough to fill max_data
+      * using timestamp for x axis
+      * #12 <https://github.com/tork-a/visualization_rwt/issues/12>: sorting the topics
+      * fix default http port from 9090 -> 8888
+      * add rosdep rosbridge_suite
+      * #8 <https://github.com/tork-a/visualization_rwt/issues/8>: using timestamp of header if possible
+      * #7 <https://github.com/tork-a/visualization_rwt/issues/7>: updating README
+      * #5 <https://github.com/tork-a/visualization_rwt/issues/5>: introducing new function: axisMinMaxWithMargin
+      * #5 <https://github.com/tork-a/visualization_rwt/issues/5>: adding auto_scale_margin
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: using floor
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: fixing rwt_plot
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: supporting timestamp data
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: supporting ros
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: supporting auto scale
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: deprecate multi plot2
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: supporting multi plot
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: supporting basic_sample
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: implementing rwt_plot using d3
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: adding less
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: adding d3
+      * #4 <https://github.com/tork-a/visualization_rwt/issues/4>: fixing indentation
+      * #3 <https://github.com/tork-a/visualization_rwt/issues/3>: fixing ROSLIB.Time in example
+      * #3 <https://github.com/tork-a/visualization_rwt/issues/3>: using RingBuffer for sequential data
+      * #3 <https://github.com/tork-a/visualization_rwt/issues/3>: implementing RingBuffer
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding some documentation
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding Profile.js
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: running jshint
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding grunt-contrib-lss
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding default task
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding jshint task
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding build task
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding Gruntfile.js which include concat and uglify task
+      * #2 <https://github.com/tork-a/visualization_rwt/issues/2>: adding package.json
+    
+  * renaming js_utils -> rwt_utils_3rdparty
+  * the very first version of rwt_plot
+  * Contributors: Yuki Furuta, Isaac Saito, Kei Okada, Ryohei Uead
+
+ -- Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>  Fri, 30 Sep 2016 15:00:00 -0000
+
+
