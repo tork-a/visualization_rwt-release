@@ -1,0 +1,12 @@
+Source: ros-melodic-rwt-utils-3rdparty
+Section: misc
+Priority: optional
+Maintainer: Ryohei Ueda <garaemon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwt-utils-3rdparty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The rwt_utils_3rdparty package
