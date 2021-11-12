@@ -1,0 +1,12 @@
+Source: ros-melodic-rwt-app-chooser
+Section: misc
+Priority: optional
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), phantomjs, ros-melodic-catkin, ros-melodic-rostest
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwt-app-chooser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-app-manager, ros-melodic-rosbridge-server, ros-melodic-roswww, ros-melodic-sound-play
+Description: The simple web frontend for app_manager
