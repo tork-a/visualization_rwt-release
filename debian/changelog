@@ -1,0 +1,52 @@
+ros-noetic-rwt-utils-3rdparty (0.1.1-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-utils-3rdparty (0.1.0-2buster) buster; urgency=high
+
+  * use websocket_port 9090 as defaut (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * close after pushing connect on roswebsocket setting menu (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * change Setting label from ROS Master URI -> Rosbridge Websocket URI (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * Contributors: Kei Okada, Shingo Kitagawa
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-utils-3rdparty (0.0.5-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-utils-3rdparty (0.0.4-2buster) buster; urgency=high
+
+  * [rwt_image_view] add port arguments in rwt_utils (#90 <https://github.com/tork-a/visualization_rwt//issues/90>)
+  * Add settings for ROS connection (#76 <https://github.com/tork-a/visualization_rwt//issues/76>)
+  * Modified rwt's javascript module path. (#70 <https://github.com/tork-a/visualization_rwt//issues/70>)
+  * Contributors: Yuki Furuta, Shingo Kitagawa, Iory Yanokura
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Mon, 08 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-utils-3rdparty (0.0.3-2buster) buster; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+ros-noetic-rwt-utils-3rdparty (0.0.2-2buster) buster; urgency=high
+
+  * remove old rosbuild files
+  * Add maintainer. Consistent pkg versions. Sort out manifest format.
+  * catkinize visualization_rwt packages
+  * adding bootstrap without responsive
+  * adding async.js
+  * adding jquery
+  * adding less.js
+  * adding bootstrap
+  * renaming js_utils -> rwt_utils_3rdparty
+  * Contributors: Yuki Furuta, Isaac IY Saito, Kei Okada, Ryohei Ueda
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+
