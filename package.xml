@@ -16,8 +16,8 @@
   <run_depend>roswww</run_depend>
   <run_depend>sound_play</run_depend>
 
-  <test_depend>phantomjs</test_depend>
-  <test_depend>python-selenium-pip</test_depend>
-  <test_depend>rostest</test_depend>
+  <!-- <test_depend>phantomjs</test_depend> -->
+  <!-- <test_depend>python-selenium-pip</test_depend> -->
+  <!-- <test_depend>rostest</test_depend> -->
 
 </package>
