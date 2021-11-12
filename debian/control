@@ -1,0 +1,12 @@
+Source: ros-noetic-rwt-speech-recognition
+Section: misc
+Priority: optional
+Maintainer: Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-rosbridge-server, ros-noetic-roslaunch, ros-noetic-rostest, ros-noetic-roswww, ros-noetic-rwt-utils-3rdparty, ros-noetic-speech-recognition-msgs
+Homepage: http://wiki.ros.org/rwt_speech_recognition
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rwt-speech-recognition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-rosbridge-server, ros-noetic-roswww, ros-noetic-rwt-utils-3rdparty, ros-noetic-speech-recognition-msgs
+Description: The rwt_speech_recognition package
