@@ -1,0 +1,12 @@
+Source: ros-melodic-rwt-speech-recognition
+Section: misc
+Priority: optional
+Maintainer: Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rosbridge-server, ros-melodic-roslaunch, ros-melodic-rostest, ros-melodic-roswww, ros-melodic-rwt-utils-3rdparty, ros-melodic-speech-recognition-msgs
+Homepage: http://wiki.ros.org/rwt_speech_recognition
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwt-speech-recognition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rosbridge-server, ros-melodic-roswww, ros-melodic-rwt-utils-3rdparty, ros-melodic-speech-recognition-msgs
+Description: The rwt_speech_recognition package
