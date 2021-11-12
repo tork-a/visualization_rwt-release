@@ -1,0 +1,12 @@
+Source: ros-melodic-rwt-image-view
+Section: misc
+Priority: optional
+Maintainer: Ryohei Ueda <garaemon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-image-publisher, ros-melodic-message-generation, ros-melodic-rospy, ros-melodic-rostest, ros-melodic-roswww, ros-melodic-rviz, ros-melodic-rwt-utils-3rdparty, ros-melodic-std-srvs, ros-melodic-web-video-server
+Homepage: http://wiki.ros.org/rwt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-rosbridge-server, ros-melodic-rospy, ros-melodic-roswww, ros-melodic-rwt-utils-3rdparty, ros-melodic-std-srvs, ros-melodic-web-video-server
+Description: The rwt_image_view package
