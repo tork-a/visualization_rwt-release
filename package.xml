@@ -17,7 +17,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>rwt_image_view</run_depend>
-  <!-- <run_depend>rwt_moveit</run_depend> -->
+  <run_depend>rwt_moveit</run_depend>
   <run_depend>rwt_plot</run_depend>
   <!-- rwt_robot_monitor depends on roslibjs_experimental whcih is not releaed yet -->
   <!-- <run_depend>rwt_robot_monitor</run_depend> -->
