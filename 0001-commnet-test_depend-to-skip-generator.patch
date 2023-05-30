@@ -1,4 +1,4 @@
-From bc14b46d72e7c4d86d3b5babbeea38dce5e1bd39 Mon Sep 17 00:00:00 2001
+From 0dca292b54c2e779f78a1ff2e4a87f934f5041c2 Mon Sep 17 00:00:00 2001
 From: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
 Date: Fri, 12 Nov 2021 19:31:21 +0900
 Subject: [PATCH] commnet test_depend to skip generator
@@ -24,5 +24,5 @@ index 528d02b..05752b6 100644
  
  </package>
 -- 
-2.17.1
+2.25.1
 
