@@ -1,10 +1,17 @@
+define( [
+	"../core",
+	"../var/document",
+	"../ajax"
+], function( jQuery, document ) {
+
 // Install script dataType
-jQuery.ajaxSetup({
+jQuery.ajaxSetup( {
 	accepts: {
-		script: "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"
+		script: "text/javascript, application/javascript, " +
+			"application/ecmascript, application/x-ecmascript"
 	},
 	contents: {
-		script: /javascript|ecmascript/
+		script: /\b(?:java|ecma)script\b/
 	},
 	converters: {
 		"text script": function( text ) {
@@ -12,7 +19,7 @@ jQuery.ajaxSetup({
 			return text;
 		}
 	}
-});
+} );
 
 // Handle cache's special case and global
 jQuery.ajaxPrefilter( "script", function( s ) {
@@ -23,16 +30,16 @@ jQuery.ajaxPrefilter( "script", function( s ) {
 		s.type = "GET";
 		s.global = false;
 	}
-});
+} );
 
 // Bind script tag hack transport
-jQuery.ajaxTransport( "script", function(s) {
+jQuery.ajaxTransport( "script", function( s ) {
 
 	// This transport only deals with cross domain requests
 	if ( s.crossDomain ) {
 
 		var script,
-			head = document.head || document.getElementsByTagName( "head" )[0] || document.documentElement;
+			head = document.head || jQuery( "head" )[ 0 ] || document.documentElement;
 
 		return {
 
@@ -40,7 +47,7 @@ jQuery.ajaxTransport( "script", function(s) {
 
 				script = document.createElement( "script" );
 
-				script.async = "async";
+				script.async = true;
 
 				if ( s.scriptCharset ) {
 					script.charset = s.scriptCharset;
@@ -57,12 +64,12 @@ jQuery.ajaxTransport( "script", function(s) {
 						script.onload = script.onreadystatechange = null;
 
 						// Remove the script
-						if ( head && script.parentNode ) {
-							head.removeChild( script );
+						if ( script.parentNode ) {
+							script.parentNode.removeChild( script );
 						}
 
 						// Dereference the script
-						script = undefined;
+						script = null;
 
 						// Callback if not abort
 						if ( !isAbort ) {
@@ -70,16 +77,19 @@ jQuery.ajaxTransport( "script", function(s) {
 						}
 					}
 				};
-				// Use insertBefore instead of appendChild  to circumvent an IE6 bug.
-				// This arises when a base node is used (#2709 and #4378).
+
+				// Circumvent IE6 bugs with base elements (#2709 and #4378) by prepending
+				// Use native DOM manipulation to avoid our domManip AJAX trickery
 				head.insertBefore( script, head.firstChild );
 			},
 
 			abort: function() {
 				if ( script ) {
-					script.onload( 0, 1 );
+					script.onload( undefined, true );
 				}
 			}
 		};
 	}
-});
+} );
+
+} );
