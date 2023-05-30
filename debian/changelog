@@ -1,0 +1,72 @@
+ros-melodic-rwt-speech-recognition (0.1.2-2bionic) bionic; urgency=high
+
+  * fix for noetic (#130 <https://github.com/tork-a/visualization_rwt//issues/130>)
+    
+      * fix test code for selenium version >= 4.3.0
+    
+  * Contributors: Kei Okada
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Mon, 29 May 2023 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.1.1-2bionic) bionic; urgency=high
+
+
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.1.0-2bionic) bionic; urgency=high
+
+  * use websocket_port 9090 as defaut (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * add test for rwt tools (#110 <https://github.com/tork-a/visualization_rwt/issues/110>)
+  * Contributors: Kei Okada, Shingo Kitagawa
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.0.5-2bionic) bionic; urgency=high
+
+
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Thu, 11 Mar 2021 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.0.4-2bionic) bionic; urgency=high
+
+  * Add settings for ROS connection (#76 <https://github.com/tork-a/visualization_rwt//issues/76>)
+  * Modified rwt's javascript module path. (#70 <https://github.com/tork-a/visualization_rwt//issues/70>)
+  * Contributors: Yuki Furuta, Kei Okada, Iory Yanokura
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Mon, 08 Mar 2021 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.0.3-2bionic) bionic; urgency=high
+
+
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Fri, 30 Sep 2016 15:00:00 -0000
+
+ros-melodic-rwt-speech-recognition (0.0.2-2bionic) bionic; urgency=high
+
+  * Fix to work as of 2016/10/1 #63 <https://github.com/tork-a/visualization_rwt/issues/63>
+    
+      * update README
+      * update status texts
+      * show selected language
+      * do not overray mode when push continus/once
+      * you can not use li value, use data-value http://stackoverflow.com/questions/31027506/get-value-attribute-from-an-li-element
+      * fix rwt_speech_recognition.js path
+    
+  * remove old rosbuild files
+  * reomve depends to the packages released from CDN
+  * Add maintainer. Consistent pkg versions. Sort out manifest format.
+  * use tork-a/roswww
+  * publish confidences; fix message type texts -> transcript #48 <https://github.com/tork-a/visualization_rwt/issues/48>
+    
+      * remove .msg from message type
+      * publish confidences; fix message type texts -> transcript
+      * catkinize visualization_rwt packages
+      * fix typo in index.html
+    
+  * add rwt_speech_recognition
+  * Contributors: Yuki Furuta, Isaac Saito, Kei Okada
+
+ -- Isaac IY Saito <iiysaito@opensource-robotics.tokyo.jp>  Fri, 30 Sep 2016 15:00:00 -0000
+
+
