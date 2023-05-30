@@ -1,0 +1,12 @@
+Source: ros-melodic-visualization-rwt
+Section: misc
+Priority: optional
+Maintainer: Ryohei Ueda <ueda@jsk.imi.i.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-visualization-rwt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rwt-app-chooser, ros-melodic-rwt-image-view, ros-melodic-rwt-moveit, ros-melodic-rwt-plot, ros-melodic-rwt-speech-recognition, ros-melodic-rwt-utils-3rdparty
+Description: visualization packages using rwt
