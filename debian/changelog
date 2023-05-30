@@ -1,0 +1,57 @@
+ros-noetic-rwt-robot-monitor (0.1.2-1focal) focal; urgency=high
+
+  * fix for noetic (#130 <https://github.com/tork-a/visualization_rwt//issues/130>)
+    
+      * fix test code for selenium version >= 4.3.0
+    
+  * Contributors: Kei Okada
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Mon, 29 May 2023 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.1.1-1focal) focal; urgency=high
+
+  * [rwt_robot_monitor] remove roslibjs_experimental from package.xml (#114 <https://github.com/tork-a/visualization_rwt/issues/114>)
+  * Contributors: Kei Okada
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.1.0-1focal) focal; urgency=high
+
+  * rwt_robot_monitor : fix css to have better plot view (#113 <https://github.com/tork-a/visualization_rwt/issues/113>)
+  * use websocket_port 9090 as defaut (#112 <https://github.com/tork-a/visualization_rwt/issues/112>)
+  * add test for rwt tools (#110 <https://github.com/tork-a/visualization_rwt/issues/110>)
+  * Contributors: Kei Okada, Shingo Kitagawa, Iory Yanokura
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Nov 2021 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.0.5-1focal) focal; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Thu, 11 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.0.4-1focal) focal; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Mon, 08 Mar 2021 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.0.3-1focal) focal; urgency=high
+
+
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+ros-noetic-rwt-robot-monitor (0.0.2-1focal) focal; urgency=high
+
+  * remove old rosbuild files
+  * reomve depends to the packages released from CDN
+  * Add maintainer. Consistent pkg versions. Sort out manifest format.
+  * use tork-a/roswww
+  * catkinize visualization_rwt packages
+  * adding new package rwt_robot_monitor
+  * Contributors: Furuta Yuki, Isaac Saito, Kei Okada, Ryohei Ueda
+
+ -- Ryohei Ueda <garaemon@gmail.com>  Fri, 30 Sep 2016 15:00:00 -0000
+
+
