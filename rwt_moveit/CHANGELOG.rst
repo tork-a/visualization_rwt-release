@@ -2,6 +2,14 @@
 Changelog for package rwt_moveit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2023-05-30)
+------------------
+* fix for noetic (`#130 <https://github.com/tork-a/visualization_rwt//issues/130>`_)
+
+  * rwt_moveit: remove depends to kdl
+
+* Contributors: Kei Okada
+
 0.1.1 (2021-11-12)
 ------------------
 
