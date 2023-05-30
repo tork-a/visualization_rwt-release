@@ -1,3 +1,36 @@
+## visualization_rwt (melodic) - 0.1.2-1
+
+The packages in the `visualization_rwt` repository were released into the `melodic` distro by running `/home/k-okada/.local/bin/bloom-release visualization_rwt --rosdistro melodic --track melodic` on `Tue, 30 May 2023 06:59:08 -0000`
+
+These packages were released:
+- `rwt_app_chooser`
+- `rwt_image_view`
+- `rwt_moveit`
+- `rwt_nav`
+- `rwt_plot`
+- `rwt_robot_monitor`
+- `rwt_speech_recognition`
+- `rwt_steer`
+- `rwt_utils_3rdparty`
+- `visualization_rwt`
+
+Version of package(s) in repository `visualization_rwt`:
+
+- upstream repository: https://github.com/tork-a/visualization_rwt.git
+- release repository: https://github.com/tork-a/visualization_rwt-release.git
+- rosdistro version: `0.1.1-1`
+- old version: `0.1.1-1`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## visualization_rwt (noetic) - 0.1.2-1
 
 The packages in the `visualization_rwt` repository were released into the `noetic` distro by running `/home/k-okada/.local/bin/bloom-release visualization_rwt --rosdistro noetic --track noetic` on `Tue, 30 May 2023 05:40:35 -0000`
