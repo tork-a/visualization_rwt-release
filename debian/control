@@ -1,0 +1,12 @@
+Source: ros-noetic-rwt-steer
+Section: misc
+Priority: optional
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-image-publisher <!nocheck>, ros-noetic-rosbridge-server, ros-noetic-rostest <!nocheck>, ros-noetic-roswww, ros-noetic-rviz <!nocheck>, ros-noetic-rwt-utils-3rdparty, ros-noetic-web-video-server
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rwt-steer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-rosbridge-server, ros-noetic-roswww, ros-noetic-rwt-utils-3rdparty, ros-noetic-web-video-server
+Description: The rwt_steer package
