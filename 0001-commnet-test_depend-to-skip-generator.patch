@@ -1,4 +1,4 @@
-From 0dca292b54c2e779f78a1ff2e4a87f934f5041c2 Mon Sep 17 00:00:00 2001
+From 31b110ae5a3fcc8e727741e331dd4ccb8cbc5034 Mon Sep 17 00:00:00 2001
 From: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
 Date: Fri, 12 Nov 2021 19:31:21 +0900
 Subject: [PATCH] commnet test_depend to skip generator
@@ -8,7 +8,7 @@ Subject: [PATCH] commnet test_depend to skip generator
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/package.xml b/package.xml
-index 528d02b..05752b6 100644
+index f8afeda..4f2ad34 100644
 --- a/package.xml
 +++ b/package.xml
 @@ -16,8 +16,8 @@
